@@ -3,7 +3,7 @@ const Card = (props) => {
     return(
         <div className="cards">
             <div className="title">
-                <h1>title</h1>
+                <h1>props.item.title</h1>
             </div>
             <div className="date">
                 <h2>date</h2>
@@ -13,7 +13,7 @@ const Card = (props) => {
                 <p>description</p>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Card;
